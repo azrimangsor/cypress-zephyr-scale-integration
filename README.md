@@ -9,7 +9,7 @@ I have developed a work-in-progress project to enhance Zephyr Scale integration 
 Will make futher ecnhancement when time permit.
 
 ## What it do?
-- Create test cycle everytime cypress test executed by utilise Cypress hook (before() & eachAfter())
+- Create test cycle everytime cypress test executed by utilise Cypress hook ( *before()* & *eachAfter()* )
 - Only update status of associated test cases
 
 ## What it not ?
