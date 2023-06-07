@@ -19,8 +19,8 @@ before(() => {
       url: `${url}`,
       method: 'POST',
       body: {
-          projectKey: "ALT",
-          name: `ALTO E2E Regression ${dateTime}`
+          projectKey: "PROJ",
+          name: `TEST E2E Regression ${dateTime}`
       }
     })
     .then((response) => {
@@ -31,7 +31,7 @@ before(() => {
 afterEach(function() {
     console.log(this.currentTest.state);
 
-    const pattern = /ALT-T\d+/
+    const pattern = /PROJ-T\d+/
     const match = this.currentTest.title.match(pattern)
   
     console.log(match[0])
