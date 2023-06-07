@@ -1,2 +1,2 @@
-# cypress-zypher-scale-integration
+# cypress-zephyr-scale-integration
 Update Zypher Scale Test Cyle Execution from Cypress Test
