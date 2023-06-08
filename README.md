@@ -17,7 +17,25 @@ Will make futher ecnhancement when time permit.
 - Does not update beyond these initial setup status 'Passed,' 'Failed,' or 'Skipped'
 - Does not update start and end time of each test
 
+# Requirement:
+- Valid Zephyr Scale API Access Token
+- Valid Zephyr Test Case ID
+
 # How it work:
+
+A valid Zephyr Scale API access token required for the integration to work. The token can be obtain by clicking on your profile icon in Zephyr
+
+![image](https://github.com/azrimangsor/cypress-zephyr-scale-integration/assets/33415476/f4da06e9-6d0c-4136-89ad-f75cb77019ba)
+
+Click on the **Create access token** button to generate the access token
+
+![image](https://github.com/azrimangsor/cypress-zephyr-scale-integration/assets/33415476/084689e2-2898-44df-91b3-9bec958925fb)
+
+Once the button click, a pop-ups will appear with the access token
+
+![image](https://github.com/azrimangsor/cypress-zephyr-scale-integration/assets/33415476/16d6ac24-70c1-4eeb-8b29-e8beeb4d4453)
+
+Copy the token and place it inside cypress environment file. In this project, I refer it to *bearerToken* variable
 
 ```mermaid
 graph LR
@@ -37,3 +55,4 @@ For this integration to work, the test case reference require in each of the cyp
     it(`PROJ-T1 - User Details - Fields Validation`, () => {
       ...
     })
+
