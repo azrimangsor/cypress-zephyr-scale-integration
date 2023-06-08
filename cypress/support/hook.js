@@ -41,7 +41,7 @@ afterEach(function() {
     const testCycle = Cypress.env('testCycle')
   
     const requestBody = {
-      projectKey: 'ALT',
+      projectKey: 'PROJ',
       testCaseKey: `${match[0]}`,
       testCycleKey: `${testCycle}`,
       statusName: '',
